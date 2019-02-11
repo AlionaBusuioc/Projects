@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Welcome to the future</title>
+  <style>
+  body{
+background-image: url(bg.jpg);
+font-family: Montserrat;
+}
+* {
+  box-sizing:border-box;
+}
+@media screen and (max-width:800px) {
+  .date,.ru,.contacts,.contain{
+    width:100%;
+  display: flex;
+  flex-direction: column-reverse;
+  }
+  #nav-table, #picture,.container, .meniu, .menu{
+    width:100%;
+  display: flex;
+  flex-direction: column;
+  }
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+#nav-table{
+  display: table;
+  width: 100%;
+position: absolute;
+}
+h1,h2{
+font-family: Montserrat;
+color: white;
+}
+h2{
+  font-weight: 200;
+  margin-top:-20px;
+}
+#welcome{
+  padding: 270px;
+}
+#picture{
+  margin-top: 10px;
+}
+.contacts{
+  padding:3px;
+  float:right;
+  width:3%;
+  color: white;
+}
+.contain{
+  padding:3px;
+  float:right;
+  width:15%;
+}
+.ru{
+  padding:3px;
+  float:right;
+  width:3%;
+  margin-left:-10px;
+  color: white;
+}
+.meniu{
+  padding:10px;
+  float:right;
+  width:8%;
+}
+.menu{
+  padding:10px;
+  float:right;
+  width:12%;
+}
+.container{
+  margin-top: -40px;
+}
+  </style>
+</head>
+<body>
+  <div class="date">
+    <div class="ru">RU</div>
+    <div class="contacts"><a href="">|</a></div>
+    <div class="contacts">RO</div>
+    <div class="contain"><a href="">Тел:(+373 69) 12 34 56</a></div>
+  </div>
+<div id="nav-table">
+  <div id="picture"><a href="" class="logo"><img src="logo-webus.jpg"></a></div>
+  <div class="container">
+    <div class="meniu" style="font-size:1,5vw;"><a href=""><small>КОНТАКТЫ</small></a></div>
+    <div class="menu" style="font-size:1,5vw;"><a href=""><small>НАШИ ПАРТНЕРЫ</small></a></div>
+    <div class="meniu" style="font-size:1,5vw;"><a href="" ><small>АКЦИИ</small></a></div>
+    <div class="meniu" style="font-size:1,5vw;"><a href=""><small>УСЛУГИ</small></a></div>
+    <div class="meniu" style="font-size:1,5vw;"><a href=""><small>ПРОДУКЦИЯ</small></a></div>
+    <div class="meniu" style="font-size:1,5vw;"><a href=""><small>О НАС</small></a></div>
+  </div>
+</div>
+<div id="welcome">
+<h1 style="font-size:3vw;"><big><big>Welcome</big></big></h1>
+<h2 style="font-size:2vw;">to the future</h2>
+</div>
+</body>
+</html>
